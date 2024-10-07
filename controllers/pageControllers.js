@@ -12,7 +12,7 @@ const pageController = {
       const { nombre, email } = req.body;
       await User.create({ nombre, email });
       console.log(req.body);
-      return res.redirect("inicio");
+      return res.redirect("contacto");
     } catch (err) {
       console.error(err);
     }
