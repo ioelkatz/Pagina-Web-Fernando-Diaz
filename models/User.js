@@ -18,10 +18,6 @@ User.init(
     email: {
       type: DataTypes.STRING,
       allowNull: false,
-      isEmail: true,
-      unique: {
-        msg: "Este email ya existe"
-      },
     },
   },
   { sequelize, modelName: "user" }
