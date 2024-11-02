@@ -1,21 +1,31 @@
 {
-  "name": "pagina_web_fernando_diaz",
-  "version": "1.0.0",
-  "main": "server.js",
+  "name": "pagina-web-fernando-diaz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tables": "node dataBase.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.10",
-    "express": "^4.21.0",
-    "mysql2": "^3.11.3",
-    "sequelize": "^6.37.4"
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "vite": "^5.4.8"
   }
 }
