@@ -12,7 +12,7 @@ function Servicios() {
               <NavLink to="/servicios/master-nutricion">
                 <img
                   className="img-fluid shadow image-service-style rounded"
-                  src="../src/assets/consulta-nutricional.png"
+                  src="/images/consulta-nutricional.png"
                   alt="poster de Master de Nutrición deportiva"
                 />
               </NavLink>
@@ -25,7 +25,7 @@ function Servicios() {
               <NavLink to="/servicios/master-nutricion">
                 <img
                   className="img-fluid shadow image-service-style rounded"
-                  src="../src/assets/master-nutricion.png"
+                  src="/images/master-nutricion.png"
                   alt="poster de Master de Nutrición deportiva"
                 />
               </NavLink>

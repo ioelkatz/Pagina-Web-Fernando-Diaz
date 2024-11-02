@@ -8,7 +8,7 @@ function Contacto() {
             <div className="d-flex justify-content-center mb-4">
               <img
                 className="img-fluid shadow rounded"
-                src="../src/assets/fernando-nutricionista.png"
+                src="/images/fernando-nutricionista.png"
                 alt="Imagen de Fernando Díaz"
               />
             </div>

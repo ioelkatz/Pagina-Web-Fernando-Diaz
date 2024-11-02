@@ -8,7 +8,7 @@ function SobreMi() {
             <div className="text-center">
               <img
                 className="img-fluid shadow rounded mb-4"
-                src="../src/assets/fernando-nutricionista.png"
+                src="/images/fernando-nutricionista.png"
                 alt="poster de Fernando Díaz"
               />
             </div>

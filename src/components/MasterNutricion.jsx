@@ -8,7 +8,7 @@ function MasterNutricion() {
               <div className="mb-4 text-center">
                 <img
                   className="img-fluid rounded shadow-sm mb-4"
-                  src="../src/assets/master-nutricion.png"
+                  src="/images/master-nutricion.png"
                   alt="servicio de consulta nutricional"
                 />
               </div>

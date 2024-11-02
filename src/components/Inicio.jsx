@@ -7,7 +7,7 @@ function Inicio() {
         <div>
           <img
             className="img-fluid"
-            src="../src/assets/poster-inicio.png"
+            src="/images/poster-inicio.png"
             alt="poster de nutricion"
           />
           <div className="container text-black py-5">
@@ -16,7 +16,7 @@ function Inicio() {
                 <div className="mb-4">
                   <img
                     className="img-fluid rounded shadow-sm"
-                    src="../src/assets/fernando-nutricionista.png"
+                    src="/images/fernando-nutricionista.png"
                     alt="imagen de Fernando Díaz"
                   />
                 </div>
@@ -81,7 +81,7 @@ function Inicio() {
                 >
                   <div className="card shadow-sm card-styles cursor-pointer mb-5">
                     <img
-                      src="../src/assets/consulta-nutricional.png"
+                      src="/images/consulta-nutricional.png"
                       className="card-img-top image-card-styles"
                       alt="consulta nutricional"
                     />
@@ -112,7 +112,7 @@ function Inicio() {
                 >
                   <div className="card shadow-sm card-styles cursor-pointer mb-5">
                     <img
-                      src="../src/assets/master-nutricion.png"
+                      src="/images/master-nutricion.png"
                       className="card-img-top image-card-styles"
                       alt="consulta nutricional"
                     />
@@ -148,7 +148,7 @@ function Inicio() {
                   <NavLink to="servicios/consulta-nutricional">
                     <img
                       className="img-fluid rounded shadow-sm mb-4 image-service-style"
-                      src="../src/assets/consulta-nutricional.png"
+                      src="/images/consulta-nutricional.png"
                       alt="servicio de consulta nutricional"
                     />
                     <p className="text-center fs-3 text-black text-">
@@ -169,7 +169,7 @@ function Inicio() {
                   <NavLink to="/servicios/master-nutricion">
                     <img
                       className="img-fluid rounded shadow-sm mb-4 image-service-style"
-                      src="../src/assets/master-nutricion.png"
+                      src="/images/master-nutricion.png"
                       alt="servicio de master en nutricion deportiva"
                     />
                     <p className="text-center fs-3 text-black">

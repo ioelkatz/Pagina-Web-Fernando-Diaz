@@ -8,7 +8,7 @@ function ConsultaNutricional() {
               <div className="mb-4 text-center">
                 <img
                   className="img-fluid rounded shadow-sm mb-4"
-                  src="../src/assets/consulta-nutricional.png"
+                  src="/images/consulta-nutricional.png"
                   alt="servicio de consulta nutricional"
                 />
               </div>
@@ -27,7 +27,9 @@ function ConsultaNutricional() {
                 iste deleniti reiciendis eveniet dolorem ratione odit aliquid,
                 veritatis suscipit id provident!
               </p>
-              <button className="btn btn-primary fw-bold">Quiero el Servicio</button>
+              <button className="btn btn-primary fw-bold">
+                Quiero el Servicio
+              </button>
             </div>
           </div>
         </div>
